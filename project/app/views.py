@@ -59,12 +59,16 @@ def home(req):
 # ===============================URL to URL==============================
 
 
-def priyesh(req):
-    return redirect('prabhat')
+# def priyesh(req):
+#     return redirect('prabhat')
 
-def priyesh123(req):
-    return HttpResponse("hello.....")
+# def priyesh123(req):
+#     return HttpResponse("hello.....")
 
-def new123(req):
-    return render(req,'home.html')
+# def new123(req):
+#     return render(req,'home.html')
 
+def priyesh1(req):
+    return redirect('taresh123')
+
+# =====================HW make landing page by django

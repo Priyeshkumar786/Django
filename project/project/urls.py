@@ -32,9 +32,11 @@ urlpatterns = [
     # path('home3/<str:pk>/',views.home3),
     # path('home4/<slug:pk>/',views.home4),
     # path('home5/',views.home5),
-    path('taresh/',views.priyesh),
-    path('taresh123/',views.priyesh123,name='prabhat'),
-    path('',views.new123),
+    # path('taresh/',views.priyesh),
+    # path('taresh123/',views.priyesh123,name='prabhat'),
+    # path('',views.new123),
+    path('',views.priyesh1),
+    path('taresh123/',views.priyesh12)
   
 
 ]
