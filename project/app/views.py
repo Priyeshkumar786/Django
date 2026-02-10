@@ -72,3 +72,7 @@ def priyesh1(req):
     return redirect('taresh123')
 
 # =====================HW make landing page by django
+
+# json_data
+    import json
+
