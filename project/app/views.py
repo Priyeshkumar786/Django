@@ -83,6 +83,9 @@ def priyesh1(req):
 
 # def home5(req):
 #     data = {'name':'neeraj','email':'mishrapriyesh.521@gamil.com'}
+#     # return render(req,'home.html',{'data':data})
+
+#     # return render(req,'home.html')
 
 
 
