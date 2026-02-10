@@ -76,5 +76,7 @@ def priyesh1(req):
 # json_data
     import json
         data={"name":"priyesh","role":"developer","active1":True,"active2":False}
+    json_data=json.dumps(data)
+
 
 
