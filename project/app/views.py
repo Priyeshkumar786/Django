@@ -74,12 +74,15 @@ def priyesh1(req):
 # =====================HW make landing page by django
 
 # json_data
-    import json
-        data={"name":"priyesh","role":"developer","active1":True,"active2":False}
-    json_data=json.dumps(data)
-    return HttpResponse(json_data,content_type="application/json")
+    # import json
+    #     data={"name":"priyesh","role":"developer","active1":True,"active2":False}
+    # json_data=json.dumps(data)
+    # return HttpResponse(json_data,content_type="application/json")
 
 
+
+# def home5(req):
+#     data = {'name':'neeraj','email':'mishrapriyesh.521@gamil.com'}
 
 
 
