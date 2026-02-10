@@ -77,6 +77,9 @@ def priyesh1(req):
     import json
         data={"name":"priyesh","role":"developer","active1":True,"active2":False}
     json_data=json.dumps(data)
+    return HttpResponse(json_data,content_type="application/json")
+
+
 
 
 
